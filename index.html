@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나현정 - 15.푸른마을(멀티,페이드슬라이드)</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/jquery-1.12.3.js"></script>
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <!-- #wrap>main+footer -->
+    <div id="wrap">
+        <main>
+            <!-- header+#contents>.quick+.slide+.banner+.ng -->
+            <header>
+                <!-- h1.logo+nav.menu -->
+                <h1 class="logo">
+                    <!-- a>img -->
+                    <a href="#"><img src="./images/logo.svg" alt="로고"></a>
+                </h1>
+                <nav class="menu">
+                    <!-- ul>(li>a+ul.submenu>(li>a)*3)*4 -->
+                    <ul>
+                        <li>
+                            <a href="#">OnSale</a>
+                            <ul class="submenu">
+                                <li><a href="#">할인행사</a></li>
+                                <li><a href="#">덤증정</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">기획전</a>
+                            <ul class="submenu">
+                                <li><a href="#">봄 먹거리</a></li>
+                                <li><a href="#">여름 먹거리</a></li>
+                                <li><a href="#">가을 먹거리</a></li>
+                                <li><a href="#">겨울 먹거리</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">푸른마을 레시피</a>
+                            <ul class="submenu">
+                                <li><a href="#">메인요리</a></li>
+                                <li><a href="#">밑반찬</a></li>
+                                <li><a href="#">간식</a></li>
+                                <li><a href="#">브런치</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">매장안내</a>
+                            <ul class="submenu">
+                                <li><a href="#">신규매장</a></li>
+                                <li><a href="#">추천매장</a></li>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- 서브메뉴배경 -->
+                    <div class="bg"></div>
+                </nav>
+                <!-- .link>a*2{쳇봇} -->
+                <div class="link">
+                    <a href="#">쳇봇</a>
+                    <a href="#">연락처</a>
+                </div>
+            </header>
+            <div id="contents">
+                <!-- 퀵메뉴 -->
+                <div class="quick">
+                    <!-- ul>li>a>img -->
+                    <ul>
+                        <li><a href="#"><img src="./images/quick/icon-mypage-01.svg" alt="퀵메뉴1"></a></li>
+                        <li><a href="#"><img src="./images/quick/icon-mypage-02.svg" alt="퀵메뉴2"></a></li>
+                        <li><a href="#"><img src="./images/quick/icon-mypage-03.svg" alt="퀵메뉴3"></a></li>
+                    </ul>
+                </div>
+                <!-- 페이드인아웃슬라이드 -->
+                <div class="slide">
+                    <!-- .slideList>.slideImg>a>img -->
+                    <div class="slideList">
+                        <div class="slideImg"><a href="#"><img src="./images/slide1.jpg" alt="슬라이드1"></a></div>
+                        <div class="slideImg"><a href="#"><img src="./images/slide2.jpg" alt="슬라이드2"></a></div>
+                        <div class="slideImg"><a href="#"><img src="./images/slide3.jpg" alt="슬라이드3"></a></div>
+                    </div>
+                </div>
+                <!-- 배너 -->
+                <div class="banner">
+                    <!-- a>img.thum+span+img.arrow -->
+                    <a href="#"><img src="./images/banner.jpg" alt="배너" class="thum">
+                        <span>
+                            <strong>코엑스아쿠아리움 닥터피쉬 공연</strong>
+                            <br />
+                            최대 34% 할인
+                        </span>
+                        <img src="./images/arrow-w.svg" alt="화살표" class="arrow"></a>
+                </div>
+                <!-- 공지사항,갤러리 - 텝구조 -->
+                <div class="ng">
+                    <!-- 공지사항 -->
+                    <h2 class="on">공지사항</h2>
+                    <ul class="notice">
+                        <li><a href="#" class="layerpopup">정보공개청구 등은 좌측의 해당 메뉴를 이용</a><span>2023-06-16</span></li>
+                        <li><a href="#">서울시 전체 고등학교 중에서 서로 다른 2개교 선택·지원</a><span>2023-06-16</span></li>
+                        <li><a href="#">학교장 선발학교는 해당 고등학교에 직접 개별 지원</a><span>2023-06-16</span></li>
+                        <li><a href="#">신입생 선발 방법 및 시기</a><span>2023-06-16</span></li>
+                        <li><a href="#">공공기관이 보유ㆍ관리하고 있는 정보를 국민의</a><span>2023-06-16</span></li>
+                    </ul>
+                    <!-- 갤러리 -->
+                    <h2>갤러리</h2>
+                    <ul class="gallery">
+                        <!-- li>a>img -->
+                        <li><a href="#"><img src="./images/thum/thum1.jpg" alt="갤러리1"></a></li>
+                        <li><a href="#"><img src="./images/thum/thum2.jpg" alt="갤러리2"></a></li>
+                        <li><a href="#"><img src="./images/thum/thum3.jpg" alt="갤러리3"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- .blogo+.mc>.bmenu+.copyright -->
+            <div class="blogo">
+                <!-- a>img -->
+                <a href="#"><img src="./images/blogo.svg" alt="하단로고"></a>
+            </div>
+            <div class="mc">
+                <div class="bmenu">
+                    <!-- ul>li*6>a  -->
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일주소무단수집거부</a></li>
+                        <li><a href="#">푸른마을소식</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>
+                        &copy; 푸른마을. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- 레이어팝업 -->
+    <!-- #popup>a.close{X 닫기} -->
+    <div id="popup">
+        <a href="#" class="close">X 닫기</a>
+    </div>
+</body>
+</html>
